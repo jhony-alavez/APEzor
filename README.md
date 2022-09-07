@@ -18,7 +18,7 @@ Created it so everyone else can have an easy time and relax like Donkey Kong ^
 2. Guides through creating a generic PEzor payload.
 3. Integrates Go shellcode loader via Bankai
 
-## How do?
+## How to?
 
 1. `cd <pick preferred directory>`
 2. `git clone <repo link HTTP or SSH>`
