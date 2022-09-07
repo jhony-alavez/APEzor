@@ -11,12 +11,21 @@
 
 (Semi) Auto generates a PEZor payload to my liking  
 I got tired of repeating tedious tasks ...  
-Created it so everyone else can have an easy time  
+Created it so everyone else can have an easy time and relax like Donkey Kong ^    
 
 ## What it do?
 1. Grabs latest PEZor dependencies 
 2. Guides through creating a generic PEzor payload.
 3. Integrates Go shellcode loader via Bankai
+
+## How do?
+
+```
+cd <pick preferred directory>
+git clone <repo link HTTP or SSH>
+chmod +x APEzor.sh
+./APEzor.sh
+```
 
 
 **Note:** Works in conjunction with Cobalt Strike
