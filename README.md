@@ -9,7 +9,7 @@
 
 # APEzor
 
-(Semi) Auto generates a PEZor payload to my liking  
+(Semi [for now]) Auto generates a PEZor payload to my liking  
 I got tired of repeating tedious tasks ...  
 Created it so everyone else can have an easy time and relax like Donkey Kong ^    
 
