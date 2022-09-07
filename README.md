@@ -3,9 +3,9 @@
 
 # APEzor
 
-(Semi) Auto generates a PEZor payload to my liking
-I got tired of repeating tedious tasks ...
-Created it so everyone else can have an easy time
+(Semi) Auto generates a PEZor payload to my liking  
+I got tired of repeating tedious tasks ...  
+Created it so everyone else can have an easy time  
 
 ## What it do?
 Grabs latest PEZor dependencies and guides through creating a generic PEzor payload. 
