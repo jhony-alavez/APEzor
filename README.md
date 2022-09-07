@@ -20,12 +20,12 @@ Created it so everyone else can have an easy time and relax like Donkey Kong ^
 
 ## How do?
 
-```
-cd <pick preferred directory>
-git clone <repo link HTTP or SSH>
-chmod +x APEzor.sh
-./APEzor.sh
-```
+1. `cd <pick preferred directory>`
+2. `git clone <repo link HTTP or SSH>`
+3. `chmod +x APEzor.sh`
+4. `./APEzor.sh`
+5. Read and follow prompts
+
 
 
 **Note:** Works in conjunction with Cobalt Strike
