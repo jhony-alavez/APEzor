@@ -1,3 +1,6 @@
+###### Disclaimer: This repository is for research purposes only, the use of this code is your responsibility.
+
+
 # APEzor
 
 (Semi) Auto generates a PEZor payload to my liking!
@@ -18,8 +21,10 @@ https://github.com/bigb0sss/Bankai
 
 https://github.com/phra/PEzor
 
-###### Disclaimer: This repository is for research purposes only, the use of this code is your responsibility.
 
 
 ## TODO
 - [ ] Automate Cobalt Strike potion
+
+
+###### Disclaimer: This repository is for research purposes only, the use of this code is your responsibility.
