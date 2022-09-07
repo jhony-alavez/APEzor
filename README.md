@@ -3,11 +3,12 @@
 
 # APEzor
 
-(Semi) Auto generates a PEZor payload to my liking!
+(Semi) Auto generates a PEZor payload to my liking
 I got tired of repeating tedious tasks ...
+Created it so everyone else can have an easy time
 
 ## What it do?
-Grabs dependencies and guides through creating a generic PEzor payload. 
+Grabs latest PEZor dependencies and guides through creating a generic PEzor payload. 
 
 **Note:** Works in conjunction with Cobalt Strike
 
