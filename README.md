@@ -26,7 +26,8 @@ Created it so everyone else can have an easy time and relax like Donkey Kong ^
 4. `./APEzor.sh`
 5. Read and follow prompts to specify paths or perform GUI Cobalt Strike tasks  
 
-
+<br>
+<br>
 **Note:** Created with Cobalt Strike in mind
 
 *Your mileage may vary for other C2s. But it still downloads what you need to be on your way. ¬‿¬*
