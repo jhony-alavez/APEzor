@@ -28,7 +28,9 @@ Created it so everyone else can have an easy time and relax like Donkey Kong ^
 
 
 
-**Note:** Works in conjunction with Cobalt Strike
+
+
+**Note:** Created with Cobalt Strike in mind
 
 *Your mileage may vary for other C2s. But it still downloads what you need to be on your way. ¬‿¬*
 
