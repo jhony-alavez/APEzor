@@ -9,7 +9,8 @@ Created it so everyone else can have an easy time
 
 ## What it do?
 1. Grabs latest PEZor dependencies 
-2. Guides through creating a generic PEzor payload.  
+2. Guides through creating a generic PEzor payload.
+3. Integrates Go shellcode loader via bankai
 
 
 **Note:** Works in conjunction with Cobalt Strike
