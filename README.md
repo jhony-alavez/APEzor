@@ -8,7 +8,9 @@ I got tired of repeating tedious tasks ...
 Created it so everyone else can have an easy time  
 
 ## What it do?
-Grabs latest PEZor dependencies and guides through creating a generic PEzor payload. 
+[^1] Grabs latest PEZor dependencies 
+[^2] Guides through creating a generic PEzor payload. 
+
 
 **Note:** Works in conjunction with Cobalt Strike
 
