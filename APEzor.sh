@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 #Banner
 sleep 1
 echo -e "\n\n"
@@ -33,7 +32,7 @@ git clone https://github.com/TheWover/donut.git $dir/donut/
 
 sleep 2
 echo -e "${red}\n[+] Cloning Dependency >> sgn${reset}"
-wget https://github.com/EgeBalci/sgn/releases/download/2.0/sgn_linux_amd64_2.0.zip -P $dir
+wget https://github.com/EgeBalci/sgn/releases/download/2.0/sgn_linux_amd64_2.0.zip -P $dir 
 
 cd $dir
 unzip sgn_linux_amd64_2.0.zip
@@ -49,32 +48,35 @@ git clone https://github.com/bigb0sss/bankai.git $dir/bankai/
 
 sleep 2
 echo -e "${red}\n[!]Configuring Dependencies...${reset}"
-
+sudo apt-get update -y
+sudo apt-get install cmake -y
 cd $dir/wclang/
+
 cmake -DCMAKE_INSTALL_PREFIX=_prefix_ .
 make
 make install
 
 
-
 sleep 2
 echo -e "${red}\n[!]Configuring Dependencies...${reset}"
-sudo apt remove python3-donut
+sudo apt remove python3-donut -y
 cd $dir/donut/
 sudo pip3 install .
 pip3 install donut-shellcode 
 cd $dir
-
+cd ..
 sleep 2
 echo -e "${red}\n[!]Configuring PATH Variables...${reset}"
+sleep 1
 export PATH=$PATH:$dir/PEzor/wclang/_prefix_/bin
+sleep 1
 export PATH=$PATH:$dir/donut
+sleep 1
 export PATH=$PATH:$dir/sgn_linux_amd64_2.0
-
+echo -e "${green}\n[+] Done grabbing dependencies!${reset}"
 
 sleep 2
 echo -e "\n"
-#echo -n "${red}Create a Stageless Windows Executable${reset}"
 read -n1 -s -r -p "$(echo -e ${red}Create a Stageless Windows Executable and save to this current directory:${reset}`pwd`${red} '\n'Then press ENTER to continue.${reset})" key
 
 if [ "$key" = '' ]; then
