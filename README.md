@@ -43,7 +43,7 @@ https://github.com/phra/PEzor
 
 
 ## TODO
-- [ ] Automate Cobalt Strike potion
+- [ ] Automate Cobalt Strike portion
 - [ ] Try Catch on already downloaded dependenies
 - [ ] Clean up else blocks - or remove idk
 
